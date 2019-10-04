@@ -12,13 +12,13 @@
 #  generate the average of the dice
 #  display a summary of what was rolled, and what the result was
 
-myvar=6
+dicevar=6
 bias=1
 # Tell the user we have started processing
 echo "Rolling..."
 # roll the dice and save the results
-die1=$(( RANDOM % $myvar + $bias))
-die2=$(( RANDOM % $myvar + $bias ))
+die1=$(( RANDOM % $dicevar + $bias))
+die2=$(( RANDOM % $dicevar + $bias ))
 # sum up the rolls
 sum=$(( die1 + die2 ))
 #average of the numbers
