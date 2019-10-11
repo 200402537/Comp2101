@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script demonstrates how the shift command works
 
-echo "======Modify by Liam======"
+echo "Modifed script"
 
 # loop through the command line arguments
 while [ $# -gt 0 ]; do
