@@ -39,4 +39,4 @@ APM=$(date +%p)
 weekday=$(date +%A)
 
 
-echo "Welcome to planet $USER!" |cowsay
+echo "Welcome $USER!" |cowsay
