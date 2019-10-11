@@ -11,14 +11,13 @@ referenceString="password"
 
 [ $myString = $referenceString ] && echo "You guessed the password!" || echo "The password eludes you..."
 
-
 #task 1
 read -p "hello, enter your password, please: " pass
 
 #task 2
 if [ $pass != $referenceString ];then
 
-  echo "oh wrong one"
+  echo "That is incorrect"
 
 fi
 
