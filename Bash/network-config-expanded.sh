@@ -12,9 +12,6 @@
 # the LAN info in this script uses a hardcoded interface name of "eno1"
 #    - change eno1 to whatever interface you have and want to gather info about in order to test the script
 
-echo "======Modify by Hsin-Dieh Chang======"
-
-
 # TASK 1: Dynamically identify the list of interface names for the computer running the script, and use a for loop to generate the report for every interface except loopback
 declare -a interface
 
